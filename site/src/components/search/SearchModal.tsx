@@ -4,8 +4,8 @@ import Box from '@mui/material/Box'
 import Divider from '@mui/material/Divider'
 import Modal from '@mui/material/Modal'
 import MuiPaper from '@mui/material/Paper'
+import { styled } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
-import { styled } from '@mui/system'
 import algoliasearch from 'algoliasearch/lite'
 import {
   Configure,

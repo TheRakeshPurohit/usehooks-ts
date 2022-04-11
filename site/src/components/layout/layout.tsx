@@ -1,11 +1,10 @@
 import React, { FC } from 'react'
 
-import { styled, useMediaQuery, useTheme } from '@mui/material'
+import { styled, Theme, useMediaQuery, useTheme } from '@mui/material'
 import CssBaseline from '@mui/material/CssBaseline'
 import GlobalStyles from '@mui/material/GlobalStyles'
 import { ThemeProvider } from '@mui/material/styles'
 import { css } from '@mui/styled-engine'
-import { Theme } from '@mui/system'
 
 import BackToTop from '../backToTop'
 import SearchModal from '../search/SearchModal'

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
 import CloseIcon from '@mui/icons-material/Close'
+import Box from '@mui/material/Box'
 import IconButton from '@mui/material/IconButton'
 import MuiSnackbar from '@mui/material/Snackbar'
 import { styled } from '@mui/material/styles'
-import { Box } from '@mui/system'
 import Confetti from 'react-confetti'
 import { useLocalStorage, useWindowSize } from 'usehooks-ts'
 
